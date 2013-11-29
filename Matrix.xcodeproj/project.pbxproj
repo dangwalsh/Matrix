@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B56A149F18476D3E00DF965A /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B56A149D18476D3E00DF965A /* Matrix.cpp */; };
+		B56A14A518478E7C00DF965A /* MatrixExceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B56A14A318478E7C00DF965A /* MatrixExceptions.cpp */; };
 		B56A253C183EDF40006531FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B56A253B183EDF40006531FB /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B56A149D18476D3E00DF965A /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		B56A149E18476D3E00DF965A /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		B56A14A318478E7C00DF965A /* MatrixExceptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixExceptions.cpp; sourceTree = "<group>"; };
+		B56A14A418478E7C00DF965A /* MatrixExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixExceptions.h; sourceTree = "<group>"; };
 		B56A2538183EDF40006531FB /* Matrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Matrix; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56A253B183EDF40006531FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				B56A253B183EDF40006531FB /* main.cpp */,
+				B56A149D18476D3E00DF965A /* Matrix.cpp */,
+				B56A149E18476D3E00DF965A /* Matrix.h */,
+				B56A14A318478E7C00DF965A /* MatrixExceptions.cpp */,
+				B56A14A418478E7C00DF965A /* MatrixExceptions.h */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
@@ -113,7 +123,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56A149F18476D3E00DF965A /* Matrix.cpp in Sources */,
 				B56A253C183EDF40006531FB /* main.cpp in Sources */,
+				B56A14A518478E7C00DF965A /* MatrixExceptions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +233,7 @@
 				B56A2543183EDF40006531FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
